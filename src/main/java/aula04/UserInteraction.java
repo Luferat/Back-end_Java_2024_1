@@ -1,4 +1,4 @@
-package aula01;
+package aula04;
 
 /*
 Exercício 3: Pergunta e Resposta

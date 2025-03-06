@@ -1,4 +1,4 @@
-package aula01;
+package aula04;
 
 /*
 Exercício 2: Calculadora Simples
@@ -8,7 +8,7 @@ Siga os passos:
    2) Implementar o seguinte código:
    3) Executar o código e testar com diferentes valores.
       Exemplo de entrada e saída:
-      ```java
+      ```cmd
       Digite o primeiro número: 5
       Digite o segundo número: 3
       A soma dos números é: 8.0
@@ -21,9 +21,11 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
+        // Cria um objeto chamado `scanner` do tipo `Scanner` que se conecta ao `System.in` do Java.
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o primeiro número: ");
+        // O método `Scanner.nextDouble()` recebe um número `double`
         double num1 = scanner.nextDouble();
 
         System.out.print("Digite o segundo número: ");
