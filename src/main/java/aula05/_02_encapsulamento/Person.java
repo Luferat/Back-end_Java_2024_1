@@ -13,6 +13,8 @@ public class Person {
     }
 
     public void setName(String name) {
+
+        // Validação, filtragem, blacklist, ...
         this.name = name;
     }
 
@@ -21,4 +23,6 @@ public class Person {
             this.age = age;
         }
     }
+
+    public Person() {}
 }

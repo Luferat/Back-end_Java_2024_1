@@ -1,7 +1,14 @@
 package aula05._04_polimorfismo;
 
-public class Animal {
-    public void makeSound() {
-        System.out.println("Som de animal");
+// Classe base
+abstract class Animal {
+    abstract void makeSound();
+
+    public void Animal(){
+        System.out.println("Vozes Ltda.");
+    }
+
+    public void outroMetodo() {
+        System.out.println("Poin");
     }
 }
