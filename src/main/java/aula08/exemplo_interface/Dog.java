@@ -1,4 +1,4 @@
-package aula06.exemplo_interface;
+package aula08.exemplo_interface;
 
 // Classe Dog implementando a interface Animal
 class Dog implements Animal {

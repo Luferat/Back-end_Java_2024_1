@@ -1,4 +1,4 @@
-package aula06.exemplo_interface;
+package aula08.exemplo_interface;
 
 // Classe de teste
 public class Main {
